@@ -1,0 +1,56 @@
+﻿source_text,language,question_final,answer_final,qa_accepted_at_loop,hint_final,hint_accepted_at_loop,question_attempt_1,qa_raw_content_1,hint_attempt_1,hint_raw_content_1
+"I Van Halen sono stati un gruppo musicale hard rock statunitense fondato dal chitarrista olandese Eddie van Halen e dal fratello batterista Alex a Pasadena, California.
+La band, nata a Pasadena, ha contribuito in modo decisivo allo sviluppo dell'heavy metal negli anni successivi e in particolare lo stile chitarristico di Eddie van Halen è citato come fonte di ispirazione da una moltitudine di chitarristi. Nonostante i vari cambi di formazione, i Van Halen sono sempre stati molto popolari: nella prima fase salirono alla ribalta con il cantante David Lee Roth per poi consolidare la loro fama con Sammy Hagar alla voce. Il gruppo si sciolse momentaneamente sul finire degli anni novanta, dopo una sfortunata parentesi con il cantante Gary Cherone, per poi ritornare insieme nei primi anni duemila seppur senza ottenere il successo dei decenni precedenti.
+In quasi cinque decenni di attività il gruppo ha venduto oltre ottanta milioni di dischi nel mondo, di cui cinquantasei nei soli Stati Uniti.",Italian,Quale città degli Stati Uniti è menzionata come luogo di fondazione dei Van Halen e viene descritta come la loro città di origine?,Pasadena,-1,Ricorda la città californiana dove la band è nata e che viene indicata come la loro città di origine.,-1,Quale città degli Stati Uniti è menzionata come luogo di fondazione dei Van Halen e viene descritta come la loro città di origine?,"```json
+{
+  ""question"": ""Quale città degli Stati Uniti è menzionata come luogo di fondazione dei Van Halen e viene descritta come la loro città di origine?"",
+  ""answer"": ""Pasadena""
+}
+```",,"```json
+{
+  ""Reasoning"": ""The text explicitly mentions the city where the band was founded and describes it as their city of origin. I will use the detail about the band being 'nata a Pasadena' (born in Pasadena)."",
+  ""Hint"": ""Ricorda la città californiana dove la band è nata e che viene indicata come la loro città di origine.""
+}
+```"
+"Dragon Ball Z (ドラゴンボール Z Doragon Bōru Zetto?), talvolta abbreviato in DBZ e trasmesso da Mediaset come What's My Destiny Dragon Ball, è una serie televisiva anime prodotta da Toei Animation, per la regia di Daisuke Nishio, e tratta dal manga Dragon Ball di Akira Toriyama, riprendendone i volumi dal 17 al 42. Costituisce il sequel della serie televisiva Dragon Ball. È stato trasmesso in Giappone su Fuji TV dal 26 aprile 1989 al 31 gennaio 1996, per un totale di 291 episodi.Dragon Ball Z narra le avventure di Son Goku, ormai divenuto adulto, il quale si è sposato con Chichi e da cui ha avuto due figli, Son Gohan e, successivamente, Son Goten. Con il proseguire della serie e delle avventure, aumentano sia gli avversari sia la loro potenza, e le battaglie che ne derivano causano un allontanamento sempre maggiore da quella che era la base della storia in Dragon Ball, ovvero la ricerca delle sfere del drago. Si privilegiano così la crescita dei personaggi e il susseguirsi degli scontri. La serie copre un arco narrativo di 22 anni, partendo dall'attacco di Radish e concludendosi con la partenza di Goku allo scopo di allenare Ub in occasione del 28º Torneo Tenkaichi.
+Grazie all'enorme successo della serie, sono stati prodotti 15 film cinematografici, due OAV, due speciali televisivi, un ONA, diversi videogiochi e un gioco di carte collezionabili chiamato Dragon Ball Z Collectible Card Game. 
+Vincitore nel 2006 del Best Anime Video Awards, nello stesso anno un sondaggio decretò Dragon Ball Z come la serie TV più memorabile di sempre. Goku è stato indicato nella classifica Oricon come il miglior eroe di tutti gli anime. Nel maggio 2010, in un sondaggio di Cool Japan che chiedeva quale anime fosse meglio far conoscere al mondo secondo la cultura giapponese, le serie animate di Dragon Ball si sono piazzate nelle posizioni più alte.Dal 5 aprile 2009 è andata in onda su Fuji TV Dragon Ball Kai, una nuova versione dell'anime rimasterizzata in alta definizione e privata di molte parti non presenti nel manga.Dragon Ball Z ha avuto un sequel dal titolo Dragon Ball GT, trasmesso in Giappone a partire dal 1996 e non tratto da alcun manga. Nel 2015 viene annunciato un midquel dal titolo Dragon Ball Super, supervisionato da Akira Toriyama, che viene mandato in onda in Giappone a partire da luglio 2015 e rielabora, nella parte iniziale della serie, gli eventi narrati nei lungometraggi La battaglia degli dei e La resurrezione di 'F'.",Italian,Quanti anni copre l'arco narrativo narrato in Dragon Ball Z?,22 anni,"Pensa alla durata complessiva delle vicende del protagonista principale, dalla sua prima grande sfida da adulto fino all'ultimo torneo in cui partecipa. Qual è l'intervallo di tempo che racchiude tutte queste avventure?",-1,-1,"Quale serie televisiva anime, sequel di Dragon Ball, è ambientata 22 anni dopo l'attacco di Radish e segue le avventure di Goku adulto e della sua famiglia?",Dragon Ball Z,"```json
+{
+  ""question"": ""Quale serie televisiva anime, sequel di Dragon Ball, è ambientata 22 anni dopo l'attacco di Radish e segue le avventure di Goku adulto e della sua famiglia?"",
+  ""answer"": ""Dragon Ball Z""
+}
+```",Parsing Failed,Quanti anni copre l'arco narrativo di Dragon Ball Z?,22 anni,"```json
+{
+  ""question"": ""Quanti anni copre l'arco narrativo di Dragon Ball Z?"",
+  ""answer"": ""22 anni""
+}
+```
+
+**Explanation:**
+- **Error Identified (Rating C - Critical):** The original question was too broad and did not directly extract a specific detail from the text. The answer ""Dragon Ball Z"" was already implied in the question, making it redundant and not a precise extraction.
+- **Correction:** The new question targets a **specific numerical detail** (the narrative span of *Dragon Ball Z*) explicitly mentioned in the passage. The answer is a **direct, concise extraction** (""22 anni"") from the text.",Parsing Failed,Quanti anni copre l'arco narrativo narrato in Dragon Ball Z?,22 anni,"```json
+{
+  ""question"": ""Quanti anni copre l'arco narrativo narrato in Dragon Ball Z?"",
+  ""answer"": ""22 anni""
+}
+```
+
+**Explanation:**
+- **Error Identified (Rating C - Critical):** The original question was technically correct, but the evaluator likely rejected it due to **ambiguity in phrasing** (e.g., ""arco narrativo di Dragon Ball Z"" could be misinterpreted as the series' production span rather than the in-universe timeline). The fix clarifies that the question refers to the **narrated timeline** (""narrato in Dragon Ball Z"").
+- **Answer:** Remains ""22 anni"" as it is a direct, verbatim extraction from the passage (""La serie copre un arco narrativo di 22 anni"").
+- **Conciseness:** The answer is under 3 words and strictly factual.",Parsing Failed,Ricorda il periodo che inizia con l'attacco di Radish e termina con la partenza di Goku per allenare Ub.,"```json
+{
+  ""Reasoning"": ""The text explicitly states that the series covers a narrative arc of 22 years, starting from Radish's attack and ending with Goku's departure to train Ub. This detail is directly linked to the answer and is not part of the question."",
+  ""Hint"": ""Ricorda il periodo che inizia con l'attacco di Radish e termina con la partenza di Goku per allenare Ub.""
+}
+```",Parsing Failed,Pensa alla durata che separa l'infanzia di un personaggio principale dalla maturità dei suoi figli e nipoti nella storia.,"```json
+{
+  ""Reasoning"": ""Since no failed hint was provided, I will generate a new hint that avoids textual references and leakage. The goal is to conceptually describe the time span covered by the series without mentioning the exact number or pointing to specific parts of the text. The hint should evoke the idea of a long period, progression of characters, or generational change to trigger the memory of the answer."",
+  ""Hint"": ""Pensa alla durata che separa l'infanzia di un personaggio principale dalla maturità dei suoi figli e nipoti nella storia.""
+}
+```",Parsing Failed,"Pensa alla durata complessiva delle vicende del protagonista principale, dalla sua prima grande sfida da adulto fino all'ultimo torneo in cui partecipa. Qual è l'intervallo di tempo che racchiude tutte queste avventure?","```json
+{
+  ""Reasoning"": ""Since no failed hint was provided, I will generate a new hint that avoids textual references and leakage. The focus is on describing the concept of 'time span' covered by the series in a way that triggers the memory of the answer without directly pointing to the text or revealing the answer. The hint will emphasize the duration of events from the beginning to the end of the protagonist's journey in the series."",
+  ""Hint"": ""Pensa alla durata complessiva delle vicende del protagonista principale, dalla sua prima grande sfida da adulto fino all'ultimo torneo in cui partecipa. Qual è l'intervallo di tempo che racchiude tutte queste avventure?""
+}
+```",Parsing Failed
