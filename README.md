@@ -3,8 +3,8 @@
 <div align="center">
 
 [![Paper](https://img.shields.io/badge/Paper-AIED%202026-blue)](paper/MultiHint-9K_AIED2026.pdf)
-[![Dataset](https://img.shields.io/badge/🤗%20Dataset-HuggingFace-yellow)](https://huggingface.co/datasets/Kamyar-zeinalipour/MultiHint-9K)
-[![Models](https://img.shields.io/badge/🤗%20Models-HuggingFace-yellow)](https://huggingface.co/Kamyar-zeinalipour)
+[![Dataset](https://img.shields.io/badge/🤗%20Dataset-MultiHint--9K-yellow)](https://huggingface.co/datasets/Kamyar-zeinalipour/MultiHint-9K)
+[![Models](https://img.shields.io/badge/🤗%20Models-Kamyar--zeinalipour-yellow)](https://huggingface.co/Kamyar-zeinalipour)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![GitHub](https://img.shields.io/github/stars/KamyarZeinalipour/MultiHint-9K?style=social)](https://github.com/KamyarZeinalipour/MultiHint-9K)
 
