@@ -2,9 +2,9 @@
 
 <div align="center">
 
-[![Paper](https://img.shields.io/badge/Paper-AIED%202026-blue)](paper/MultiHint-9K_AIED2026.pdf)
+[![Paper](https://img.shields.io/badge/Paper-AIED%202026-blue)](https://ceur-ws.org/Vol-4248/short11.pdf)
 [![Dataset](https://img.shields.io/badge/🤗%20Dataset-MultiHint--9K-yellow)](https://huggingface.co/datasets/Kamyar-zeinalipour/MultiHint-9K)
-[![Models](https://img.shields.io/badge/🤗%20Models-Kamyar--zeinalipour-yellow)](https://huggingface.co/Kamyar-zeinalipour)
+[![Models](https://img.shields.io/badge/🤗%20Collection-MultiHint--9K-orange)](https://huggingface.co/collections/Kamyar-zeinalipour/multihint-9k-aied-2026-6af4875966cf330a922a1d87)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![GitHub](https://img.shields.io/github/stars/KamyarZeinalipour/MultiHint-9K?style=social)](https://github.com/KamyarZeinalipour/MultiHint-9K)
 
@@ -167,13 +167,15 @@ bash run_training.sh
 
 ### Models
 
-| Model | Base ROUGE-L | FT ROUGE-L | Gain |
-|-------|-------------|------------|------|
-| Llama-3.1-8B | 0.20 | 0.32 | +52% |
-| Qwen2.5-14B | 0.23 | 0.31 | +34% |
-| Mistral-7B-v0.3 | 0.19 | 0.32 | +57% |
-| **Mistral-Nemo-12B** | 0.15 | 0.31 | **+100%** |
-| Mistral-Small-24B | 0.18 | 0.33 | +71% |
+Released as LoRA adapters in the [MultiHint-9K collection](https://huggingface.co/collections/Kamyar-zeinalipour/multihint-9k-aied-2026-6af4875966cf330a922a1d87):
+
+| Base model | Adapter | ROUGE-L (base → fine-tuned) |
+|---|---|---|
+| [Llama-3.1-8B](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct) | [MultiHint-9K-Llama-3.1-8B](https://huggingface.co/Kamyar-zeinalipour/MultiHint-9K-Llama-3.1-8B) | 0.20 → **0.32** (+52%) |
+| [Qwen2.5-14B](https://huggingface.co/Qwen/Qwen2.5-14B-Instruct) | [MultiHint-9K-Qwen2.5-14B](https://huggingface.co/Kamyar-zeinalipour/MultiHint-9K-Qwen2.5-14B) | 0.23 → **0.31** (+34%) |
+| [Mistral-7B-v0.3](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3) | [MultiHint-9K-Mistral-7B-v0.3](https://huggingface.co/Kamyar-zeinalipour/MultiHint-9K-Mistral-7B-v0.3) | 0.19 → **0.32** (+57%) |
+| [Mistral-Nemo-12B](https://huggingface.co/mistralai/Mistral-Nemo-Instruct-2407) | [MultiHint-9K-Nemo-12B](https://huggingface.co/Kamyar-zeinalipour/MultiHint-9K-Nemo-12B) | 0.15 → **0.31** (+100%) |
+| [Mistral-Small-24B](https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501) | [MultiHint-9K-Mistral-Small-24B](https://huggingface.co/Kamyar-zeinalipour/MultiHint-9K-Mistral-Small-24B) | 0.18 → **0.33** (+71%) |
 
 All improvements statistically significant (*p* < 0.001, Bonferroni-corrected Wilcoxon).
 
