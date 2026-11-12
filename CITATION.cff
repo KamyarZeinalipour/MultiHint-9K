@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use MultiHint-9K, please cite the paper below."
+title: "MultiHint-9K: Orchestrating Human and AI Agency for Scalable Pedagogical Hint Generation"
+repository-code: "https://github.com/KamyarZeinalipour/MultiHint-9K"
+authors:
+  - family-names: "Zeinalipour"
+    given-names: "Kamyar"
+  - family-names: "Sadeghi"
+    given-names: "Amir"
+  - family-names: "Angelini"
+    given-names: "Giovanni"
+  - family-names: "Rigutini"
+    given-names: "Leonardo"
+  - family-names: "Gori"
+    given-names: "Marco"
+  - family-names: "Maggini"
+    given-names: "Marco"
+preferred-citation:
+  type: conference-paper
+  title: "MultiHint-9K: Orchestrating Human and AI Agency for Scalable Pedagogical Hint Generation"
+  authors:
+    - family-names: "Zeinalipour"
+      given-names: "Kamyar"
+    - family-names: "Sadeghi"
+      given-names: "Amir"
+    - family-names: "Angelini"
+      given-names: "Giovanni"
+    - family-names: "Rigutini"
+      given-names: "Leonardo"
+    - family-names: "Gori"
+      given-names: "Marco"
+    - family-names: "Maggini"
+      given-names: "Marco"
+  collection-title: "Proceedings of the Workshop on Orchestrating Human and AI Agency for Proactive and Reflective Learning (HAI-Agency 2026)"
+  conference:
+    name: "HAI-Agency 2026 at AIED 2026"
+  month: 6
+  year: 2026
+  url: "https://ceur-ws.org/Vol-4248/short11.pdf"
